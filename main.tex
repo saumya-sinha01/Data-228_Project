@@ -1,0 +1,394 @@
+% Make to Innovate Milestone Template
+% Modified from the UCT Project report by Linus C. Brendel
+% https://www.overleaf.com/latex/templates/uct-report-template/grctkzjtrqrm
+
+%------------------------------------------------------
+% DO NOT MODIFY THE FOLLOWING
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\bibliographystyle{chicago}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+%---------------------------------------------------------------------
+% If you are including code snips or putting code in your appendix, you can define
+% the colors used here.  See the listings example in the appendix for including 
+% source code such as MatLab or Arduino.
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+%---------------------------------------------------------------------
+% MODIFY THE FOLLOWING ITEMS FOR YOUR TITLE PAGE
+%---------------------------------------------------------------------
+
+% This is your title for your report.  It should include the milestone number and what this Milestone is about.
+\title{Under-Rated Hike-Trails in the U.S.}
+%This should be the team leader
+\author{Mounica Ayalasomayajula}
+% Here enter all the names that contributed to this report.  This should be all the team members.
+\newcommand{\members}{Saumya Sinha \\ Karnik Ketan Kalani \\ Dittu Parashar }
+\newcommand{\lrole}{Team Leader \\}
+\newcommand{\role}{Team Member \\ Team Member \\ Team Member}
+%This will automatically put today's date
+\date{\today}
+
+%Here is the role for each person listed.  It is in the same order as the author and then members.
+% \newcommand{\role}{Team Leader \ \\ Team Member \ \\ Team Member}
+%Insert your faculty adviser here
+\newcommand{\faculty}{Prof. Andrew Bond}
+
+%Insert your project name here
+\newcommand{\project}{Big Data Tech and App}
+%Iinsert your team name here
+\newcommand{\team}{Data Enthusiasts}
+
+%------------------------------------------------------------------------
+%DO NOT MODIFY ANY OF THE FOLLOWING ITEMS
+%------------------------------------------------------------------------
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+    % \includegraphics[scale = 0.4]{M2I_Boeing_Logo.png}\\[1.0 cm]
+    \textsc{\LARGE San Jose State University}\\	[1.0 cm]
+% 	\textsc{\Large AerE 294X/AerE 494X}\\[0.5 cm]
+% 	\textsc{\large Make to Innovate}\\[0.5 cm]
+	\rule{\linewidth}{0.2 mm} \\[0.4 cm]
+	{ \huge \bfseries \thetitle}\\
+	\rule{\linewidth}{0.2 mm} \\[1.5 cm]
+    \emph{Project:}
+    \project \ \\
+    \emph{Team:}
+    \team \ \\[0.5 cm]
+	\emph{Project Plan:} \href{https://data228-data-enthusiasts.atlassian.net/jira/software/projects/DE/boards/1/roadmap}{JIRA} \ \\
+	\emph{Project source:} \href{https://github.com/ayalasomayajulamounica/Data-228_Project}{GitHub}
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft} \large
+			\emph{Author(s):}\\
+			\theauthor\\
+			\emph{Members:}\\
+            \members
+			\end{flushleft}
+			\end{minipage}~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright} \large
+	    \end{flushright}
+	\end{minipage}\\[1 cm]
+	{\large Faculty Advisor: \faculty}\\[1 cm]
+	{\large \thedate}\\[1 cm]
+ 
+	\vfill
+	
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+
+%     \begin{itemize}
+%         \item Purpose: This is project plan is for our Data-228 Big Data course project.
+%         \item
+%     \end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\tableofcontents
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------------------------------
+% BEGIN YOUR DOCUMENT HERE
+%-----------------------------------------------------------------------
+
+%-----------------------------------------------------------------------
+% INSTRUCTIONS
+% This is where you will write your document.  Your table of contents will automatically get filled out based what you label as a section or subsection.  In addition, any paper, book, article or web site that you use must be cited.  This can be done using the biblist.bib file.  I have included all sections that are required and some examples.  Any images you use should go in the images folder.  This file will automatically search for images in that folder.
+%-----------------------------------------------------------------------
+
+\section{Abstract}
+
+Some people who would be visiting a particular location for the nth time(n greater than or equal to 1), they would be interested to explore places that are not mainstream in that location. For example: it’s a person’s 3rd visit to New York, he would want to explore places apart from statue of liberty or such popular places. Maybe a café with some historical significance or a sunset trail to a nearby pond from his place of stay.\\ 
+
+Considering such scenarios for trails, we try to bring out or identify the not-so-well-known trails in those locations which maybe because of several reasons like either because of the no. of user ratings and reviews or the population in that city is less or the trail park has not much amenities to offer or its just unexplored by anyone because mostly people rely on the reviews and ratings related to a particular trail but they are equally good enough to a popular trail.\\
+
+Our project’s intention is to collect multiple datasets involving allTrails dataset, top vacation destinations, cities in the U.S. possibly with their geolocational and climate data. With these, we would bring up relations among them and deduce the factors influencing the popularity aspect of the top trails in the U.S. Then, we would have the list of our under-rated trails comprising of those deduced factors. Our definition of under-rated would be those trails that are equally good as the renowned trails but are not so well-renowned. 
+
+% \subsection{Writing Style}
+% For writing a report students should read and refer to the book "Writing Style and Standards in Undergraduate Reports".  Specifically students should look at section 1.5 (page 32) and the example found on section 1.9 (page 55) of \cite{Donnell}.  Students should also refer to Chapter 2 which goes into more detail on writing standards.  Remember that you need to convey to your reader (in this case the instructor) about what you have accomplished, why you did what you did and how you came to any conclusions.  Your reports should have a good flow and it is encouraged that you use paragraphs to transition from one section to the next.
+
+% \subsection{Table of Contents}
+
+% The table of contents will be automatically created based on the use of \texttt{\textbackslash section\{\ldots\}} and \texttt{\textbackslash subsection\{\ldots\}} commands used.  This template will provide section headers for any section that is required.  You are free to add any other sections or subsections as needed.
+
+% \subsection{Images}
+
+% Images are handled differently in \LaTeX.  To begin with, you should upload all images into the "images" folder (if you are using Overleaf, otherwise place them in the images folder).  This file is setup so that it will search that folder for images.  To use images we first use the \texttt{\textbackslash begin\{figure\}} to setup an area for our image.  The \texttt{\textbackslash includegraphics[width=\textbackslash textwidth]\{sdr\_soilmoisture.png\}} is then used to call the image.  The "width" in the first part is set as the same width as your document text.  The filename is then next.  Finally we want to put a caption for this image.  This is done using \texttt{\textbackslash caption\{\ldots\}}.  It will automatically number the figure for you.  Finally, please note that \texttt{\textbackslash label\{\ldots\}} command.  This allows you to reference that image easily by using \texttt{\textbackslash ref\{\ldots\}} like this: Figure \ref{fig:sdr_graph} shows the calibrated soil moisture readings in comparison to the noise temperature.
+
+% \begin{figure}
+% \includegraphics[width=\textwidth]{sdr_soilmoisture.png}
+% \caption{An example image placed in the report.}
+% \label{fig:sdr_graph}
+% \end{figure}
+
+% A final note on images.  \LaTeX will automatically place the image in the best location according to the standards we have put forth.  This can be confusing as it may not put it exactly where you put the code.  However this perfectly acceptable and this is the reason why you need to reference your figures in your writing.  Generally \LaTeX will place images on the top of the page but it may move it to its own page if needed.  In other words, do not worry about the image placement, just let \LaTeX do its job.
+
+% \subsection{Bibliography}
+
+% Students are expected to cite all references used.  This includes any equations you used from any textbook, any journal articles \citep{Mohan2010ProfessionalCurriculum}, conference proceedings \citep{Nelson2014TeachingChipKits} websites \citep{ABET2015CriteriaPrograms} or other source material.  Make to Innovate uses the Chicago style for references.  The formatting will be handled for you automatically by \LaTeX.  However, you will need to add your references to the \texttt{biblist.bib} file.  You can upload and use other sources such as a link to your Mendeley account if you are using Overleaf.  Just make sure you edit the \texttt{\textbackslash bibliography\{\ldots\}} command that is at the bottom.
+
+% \subsection{Appendices}
+% Students are encouraged to use appendices in order to show additional information that is relative to the report.  This may include source code, additional 3D drawings, specifications and requirements, datasheets, or other additional information. 
+
+% \subsection{Final advice}
+% Remember that your report needs to tell a story, a story about the work that you did.  Plan your report out ahead of time and it should go a lot easier than just writing things out.  Also, yes, you will repeat yourself...a lot.  This is normal for almost all report writing.  Just make sure you are not just copying and pasting whole paragraphs, rephrase and rewrite.  The sections provided should give you a good start.  Make sure you do a spell check and also read it and have others read it for grammar mistakes.  Overleaf does have a spell checker, but does not check for grammar.  Finally if you want me (the instructor) to look over a report before submission I will be more than happy to do so.  Just remember that I will probably need at least 1 or 2 days to read over it and give you feedback.  Make sure you send me the source .tex file or share it with me on Overleaf.  Good luck!
+
+%-------------------------------------------------------------------------
+% Everything past here is required.  Do not delete these sections
+% You can add to it if you wish.
+%-------------------------------------------------------------------------
+\newpage
+% \section*{Abstract}
+% \addcontentsline{toc}{section}{Abstract}
+
+% This is your abstract.  A well-structured abstract defines the need, specific goal or problem, the action you took, and the results and assessment of the results.  Your abstract should include what the deliverable(s) of the milestone was, what the milestone is about and why it is important.  The abstract should not be numbered and should be on its own page.
+
+% \newpage
+\section{Introduction}
+As Frank Herbert said, 
+\begin{quote}
+    “Without new experiences, something inside of us sleeps. The sleeper must awaken.”\\
+\end{quote}
+     
+We recently stumbled upon this amazing outdoor activity, Hiking, that helps us freshen our mind and rejuvenate our body. Most of the personnel who often hike personally love to explore new hiking trails and completing those gives them a sense of achievement and satisfaction. Since we love and enjoy hiking, we wanted to explore the aspects behind a trail getting popular apart from the monotonous loop of ratings and reviews.\\
+
+We also wanted to dig and unwind the trails that might offer the similar features as the top trails but are hidden and unknown due to some reasons such as, only the most rated or reviewed trail loop, geographical advantage, near by amenities, etc. There can be N number of factors that might increase or decrease the potential of a trail for it to be famous and improve such as popular cities in and around it, crime rate, weather events, facilities offered, accommodation availability, etc. Nowadays,  many trail parks have been formed and the idea has huge potential for tourism industry. One of the most used applications that we came across is AllTrails which inspired us to take our objective forward for our project. We have used the AllTrails National and State parks datasets  along with the weather events and the vistations datasets to analyse the under rated trails based on the top 50 National park trails.\\
+
+\newpage
+\section{Project Goal}
+\begin{itemize}
+    \item[-] Primary objective of this project is to try predicting and suggest few trails which are under rated or not well-known due to some factors  despite being  equally good as the other renowned trails.\\
+    \item[-] Achieve this by verifying various factors like Trail's Geo-Location or other factors like it's near by popular cities, weather around trail's area and other deductions and analysis influencing popularity of a particular trail.
+\end{itemize}
+
+% \subsection{Deliverable}
+% Outline what exactly the deliverable(s) are for this milestone.
+
+\section{Functional Requirements}
+A functional requirement defines an input required or dependency for us to complete our task. Following are the functional requirements of our project -
+\begin{description}
+\item[1]Different sources of data: National parks' trail data, National parks' visitations data yearly (considered 2017-2019), State's Trail Data , Weather events' data (considered of years 2017-2019), Top U.S. cities(by popularity). \\ 
+\item[2] These days we have got a lot of applications such as Alltrails that provide and recommend the popular trails based on the loop of ratings and reviews which can be biased most of the times, so we wanted to identify other substantial factors that affect the popularity of a trail and recommend those trails which offer similar facilities and features but aren't known by anyone yet. Hence we need data of those trails which are popular in those services and metadata on them. \\
+\item[3] Factors affecting the popularity of a trail can be numerous such as famous cities nearby it, facilities offered by that trail such as lodging, food, shade,etc., crime rate in and around the area, weather conditions, so on and so forth.\\
+\item[4] Hence, we have considered three such factors for our analysis i.e. weather events, top cities, yearly visitations and generated a composite score based on which the not so well-known or under rated trails which are equally good as some of the most popular trails have been filtered and recommended. \\
+\end{description}
+
+\newpage
+\section{Architectural Workflow}
+Based on our objective, we started collecting the data required for our objective from various sources such as kaggle, alltrails, data.gov, etc. and finalized five different datasets which were of both csv as well as json format (National trail parks data, National parks visitations data yearly (considered 2017-2019), States' trails parks, Weather events data (considered of years 2017-2019), Top U.S. cities) to proceed with. \\ 
+We then considered to use Cloud services and out of available Cloud service providers moved ahead with AWS. Our idea here is to make use of cloud native services for data warehousing, ETL, data storage along with some security measures available. \\
+Now we created a cloud account and have IAM users for each of us through which we started working on cloud native services. By binding services we need using IAM roles and assigning those roles with corresponding permission we can communicate between those services and we started loading raw data into s3 buckets. \\
+Then, moved to cleaning and refining process of the data using python functions such as numpy and pandas in jupyter notebook and exported the clean data into csv files.\\ 
+Later, we loaded all our modified data into AWS S3 buckets to be used for our further analysis.\\
+Then, we used AWS Redshift as our data warehouse platform and stored and accessed data into it via S3 and performed several queries in order to get our desired outcome of a list of hidden under rated trails which are equally good as the most popular trails.\\
+
+\newpage
+\subsection{Workflow Model} 
+\begin{figure}[hp]
+\includegraphics[scale=0.35]{images/66.png} \\
+\end{figure}
+\subsection{Architectural Cloud Design} 
+Though we are using IAM users and roles presently, we would like to replace it with SSO using AWS Organizations or overall single sign on service integrating ~ all the services we use for this project.\\
+All our services in the AWS account are designed to be in separate VPC's than the default ones and also we have our services in different subnets for security purposes.\\
+We have version controlled our code work using git version control.\\
+\begin{figure}[hp]
+\includegraphics[scale=0.5]{images/data-228.jpg} \\
+\end{figure}
+
+\newpage
+\section{The Approach}
+\subsection{Data Collection}
+This step has been quite challenging in terms of what all factors we decided to consider for our objective. \\ We collected datasets from different sources such as kaggle, alltrails.com, github, data.gov, nps.gov.\\
+We finalized our main five different datasets for our analysis:\\
+\begin{itemize}
+    \item \textbf{National parks dataset:} Containing several factors such as length of the trail, elevation gain, activities, features, visitor usage, difficulty rating and many more.\\
+    \item \textbf{National parks visitations data yearly (considered 2017-2019):} Containing main factor that we required i.e. number of visitations per year to that trail.\\
+    \item \textbf{State trails parks:} Containing state-wise data of trails containing several factors similar to that of national trails such as length of the trail, elevation gain, activities, features, visitor usage, difficulty rating and many more.\\
+    \item \textbf{Weather events data (considered of years 2017-2019):} Containing factors such as the weather event type such as fog, snow, etc. and its severity and the event's start and end time.\\
+    \item \textbf{Top U.S. cities:} Containing list of top U.S. cities having other attributes such as its population count and geo locations.\\
+\end{itemize}
+
+\subsection{Data Cleaning}
+Initially loaded all our datasets into jupyter notebook for cleaning of the data.\\
+\begin{itemize}
+    \item \textbf{National parks data:} Out of various parameters available in the dataset we had to pick and segregate only the significant ones for our project goal. Few cleaning steps in it involved type casting few required columns, few columns were in the form of a list so we had to separate it into atomic columns for usage. \\
+    \item \textbf{State trails data:} Had similar structure as the national parks but there was a lot of data which was incomplete or had missing values in it. \\ Moreover, we had each state trails data in the form of json files which had to be converted into csv format, popularity column was also empty in most rows(because obviously every trail is not recognized) so we gave it a value 0 according to its significance, there’s a column called area name in it which has the parent locationname to which that trail belongs to but it was having a lot of missing values and the for one state data was a malformed json format data which had to be cleaned and included.\\
+    \item \textbf{National parks visitations data yearly (considered 2017-2019):} Did not require much of cleaning and was well formed and well populated but a few columns required type casting and the geo location column had lat, long as a list so had to separate it as two atomic columns.\\
+    \item \textbf{Weather events data (considered of years 2017-2019):} Similar to the above visitations dataset, it also did not require much of cleaning and was well formed and well populated but again a few columns required type casting and the geo location column had lat, long as a list so had to separate it as two atomic columns.\\
+    \item \textbf{Top U.S. cities:} Similar to the above weather events dataset, it also did not require much of cleaning and was well formed and well populated but again a few columns required type casting and the geo location column had lat, long as a list so had to separate it as two atomic columns.\\
+\end{itemize}
+With this step we got well-formatted, clean data as required and we also identified all the significant parameters from each data source required for further calculations.
+\subsection{Data Transformation/Modification}
+In this step, we use our clean data and again using jupyter we transform the parameters in numeric values for our calculations to be carried forward.
+\begin{itemize}
+    \item \textbf{National parks data:} In this data, there are parameters that are in form of keywords i.e. english. We needed some sort of quantification in order to include the significance of these parameters in these calculations.\\ 
+    For example: We first isolated the features/activities column. Then, further divided it into a 2D list. Now, ran a word frequency counter for each column which gave us the frequency of a particular activity/feature. This gives us an insight on which activity/feature has higher significance on a particular trail. Then, we just assigned a random value in a descending manner based on the significance derived previously. Now, we summed it back and made a total which resembles a numerical value for all the features/activities of the trail.\\
+    At this stage we calculated a composite score for each trail but further modification of the score was required to fit every value on the same scale. So, we used standardization and normalization methods for different parameters corresponding to their significance such as positive/ negative influence performed standardization for parameters that we require within [-1,1] and normalization on the ones which we require within [0,1]. Finally, combined it all and had our final composite score. \\
+    In order to validate our calculation of composite score we tried linear regression of this composite score and popularity of considered trail to find out any correlation. Looking at the linear regression's root mean square value we concluded since our test value is less than the train value our calculation method is promising.\\
+    \includegraphics[scale=0.35]{images/2.png}
+    \item \textbf{State trails data:} The same steps mentioned above for the national parks dataset was performed on the state trails dataset as well using the same parameters as used in the previous one and the composite score for the state trails was calculated.\\
+    \item \textbf{Weather events data (considered of years 2017-2019):} The same steps mentioned above for the national parks dataset was performed on the weather events dataset as well using the parameters severity, type, duration of the event and the composite score for the weather events was calculated.\\
+\end{itemize}
+\subsection{Data Loading}
+We loaded these transformed data into the AWS Redshift tables via AWS S3 buckets through AWS Glue.\\
+\begin{figure}[hp]
+    \includegraphics[scale=0.30]{images/load2.png}\\
+    \includegraphics[scale=0.30]{images/load.png}\\
+\end{figure}
+
+\subsection{Analyzing and Inferences}
+Now, using these tables in AWS Redshift we started calculating some inference data.\\
+\includegraphics[scale=0.35]{images/3.png}\\
+
+For example:\\
+\begin{itemize}
+\item In national parks visitations table, we started calculating the percentage increase for each year and also average percentage of increase considering this parameter might have significant value as this can be considered as expected percentage increase for that national park visitation in the following year. This shows how we are relating all these information/tables.\\
+\includegraphics[scale=0.35]{images/5.png}\\
+\item We also did calculate the distance based on the geo locations(lat and long) since each table has this only field in common. Each and every table in order to link for each park we gave lat and long as +/- 1 range to get a list lying in that range of lat and long.\\
+\includegraphics[scale=0.35]{images/4.png}\\
+\item In the weather data, we have start time and end time of a particular event from which we calculated the duration of that particular event.\\
+\end{itemize}
+\includegraphics[scale=0.35]{images/6.png}\\
+\subsection{Outcome}
+\includegraphics[scale=0.35]{images/out.png}
+% Most teams will probably have some sort of experiment to verify that their system is working properly.  However, if you do not, you still need to report on how you verified that your deliverable meet the requirements.  You can change these headings if you need to, but you should have something here.
+
+\section{Data Analysis Bottleneck}
+At this juncture, with all these modified data, analyzing how the visitations are, over the considered years with these factors i.e, weather and popular cities, we tried to generate a list. Then we realized in order to get a data table of top trails with corresponding weather data attached there is a thinning effect of number of trails due to lat/lon of weather events and trail's geo location being apart of more than ~90 miles. Us considering +/- 1 of lat and lon in calculating distance will approximately gives us the maximum distance of ~90 miles and this is also the reason for us to consider that hard coded range for distance as we thought a weather event more than 90 miles from the trail will not be having much effect on it. \\
+To this thinned out result if we go ahead and filter out with trails which have near by cities in order to get some quantitative figure of how many cities are near to that trail we have much more thinning effect on the result as few trails have no popular cities near by.\\
+These two effects our list of Top 50 trails we considered on popularity by thinning it out to result of 17 trails with all related data. \\
+Hence we faced a bottleneck in analyzing all the trails using weather data. For this we moved on with considering only popular cities factor and avoiding weather factor in our analysis.\\
+
+\section{Technical Difficulties}
+\begin{itemize}
+ \item Data Pre-processing to generate consolidated datasets:\\
+    Combined JSON data of multiple states into one consolidated dataset.\\
+    Cleaned data to fix malformed JSON.\\
+ \item Determined composite score of textual data of several features , activity , severity and many more.
+ \item Calculated estimated distance between corresponding park and city on the basis of latitude and longitude.
+ \item Insufficient weather data to calculate weather effects on all the trails.
+\end{itemize}
+
+\section{Security Measures}
+\begin{itemize}
+\item We maintained a detailed granularity right from the beginning in our cloud account. We have IAM users with corresponding custom IAM roles attached to them. 
+\item Though we are using IAM users and roles presently, we would like to replace it with SSO using AWS Organizations and Github Organization account in order to increase SSO usage with our source of truth as well.
+\item Our services in AWS account are designed to be in a separate VPC than default for better security practices. Also, we have our services in different subnets for having better control over the connectivity and access if need arises using Security Groups. 
+\item All our IAM roles are custom and we avoided using AWS managed roles for better control over data. 
+\item We avoided admin user and controlled admin previliges on our Database in redshift and it has a analyze user created with read-only permission and few create permissions to avoid any deletion of data and for better security over Database.
+\end{itemize}
+
+\section{Conclusion}
+\begin{itemize}
+\item Our conclusion consists a list of 3 suggested trails for each one of our top 50 popular trails.  These suggested trails are similar to the considered popular trail based on the parameters we considered for our composite score such as elevation gain, length, features, activities, etc.
+\item Depending on the final datasets post all the modifications and calculations the above result has been obtained by filtering conditions, minimum distance between two composite scores.
+\item In the similar fashion we can introduce many more such filtering conditions like a filter condition could be the area name of the suggested trail shouldn’t be any national park also something like the suggested trails should be in the same state or nearby using the distance factor.
+\item Our analysis and visualisations are targeted for users who are interested in hiking to explore different trails similar to the popular trails that they might have already visited , as well as for the investors/stakeholders to focus on the trails that are similar to the popular trails but lack factors that could be developed.
+\end{itemize}
+
+\section{Future Enhancements}
+\begin{itemize}
+\item Check the factors affecting popularity  of the trails like crime, accommodation availability  for stay ,Weather Events and many more.
+\item The project will be extended by implementing  Machine Learning Algorithms to forecast future popularity of national parks  across the United States in order to encourage visitations.
+\end{itemize}
+
+% \newpage
+% This is the team's opportunity to tell me more about the milestone, how things went, what they learned, etc.  
+% \section{Discussion}
+% Here discuss how successful the milestone and deliverable are and other thoughts that you have in regards to this milestone.  This is also a good place to make recommendations for future work if needed.
+
+% \section{Conclusion}
+
+% Summarize your report here.
+
+\section{References}
+    \href{https://www.kaggle.com/datasets/planejane/national-park-trails}{National-Park-trails}\\
+    \href{https://nycdatascience.com/blog/student-works/web-scraping/what-are-the-most-under-rated-hiking-destinations/}{A Data Science blog on Underrated Hiking Destinations by Dean Goldman}\\
+    \href{https://towardsdatascience.com/hidden-gems-finding-the-best-secret-trails-in-america-d9203e8ad073}{A Data science blog on Hidden Gems: Finding the best secret trails in America by Anterra Kennedy}\\
+    \href{https://github.com/j-ane/trail-data/tree/master/State\%20Trail\%20Data}{States' Trail data repository} \\
+    \href{https://github.com/plotly/datasets/blob/master/us-cities-top-1k.csv}{Top U.S cities by population}\\
+    \href{https://irma.nps.gov/Portal/}{National Parks' Statistics}\\
+    \url{https://data.gov/}\\
+
+
+%-------------------------------------------------------------------------
+% Do not edit this unless you are using a different Bib file.  In that case
+% put the bib file name below (do not include the .bib extension
+%-------------------------------------------------------------------------
+
+% \newpage
+
+% \bibliography{biblist}
+
+% %-------------------------------------------------------------------------
+% % You may delete this if you are not using an appendix in your report.
+% %-------------------------------------------------------------------------
+
+% \newpage
+% \appendix
+% \section{Example Appendix}
+% This is a very short example of doing an appendix in \LaTeX.  An appendix is not required but is a good place to put code, additional drawings, tables or other information that will help the instructor in determining that you met the requirements of the milestone.  I have included an example of how you can use \LaTeX to automatically import code.
+
+% The following tells listings how to treat the code.  You can edit this
+% as needed
+
+% \lstset{language=Matlab,%
+%     %basicstyle=\color{red},
+%     breaklines=true,%
+%     morekeywords={matlab2tikz},
+%     keywordstyle=\color{blue},%
+%     morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+%     identifierstyle=\color{black},%
+%     stringstyle=\color{mylilas},
+%     commentstyle=\color{mygreen},%
+%     showstringspaces=false,%without this there will be a symbol in the places where there is a space
+%     numbers=left,%
+%     numberstyle={\tiny \color{black}},% size of the numbers
+%     numbersep=9pt, % this defines how far the numbers are from the text
+%     emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+%     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+% }
+
+% To import your code, just use the following command.  Make sure it is the same
+% folder or if using Overleaf it is uploaded to the project.
+
+% \lstinputlisting{lab1_hello.m}
+
+%-------------------------------------------------------------------------
+% DO NOT DELETE THIS.
+% This is the end of the document.  Nothing else should go past this.
+%-------------------------------------------------------------------------
+
+\end{document}
