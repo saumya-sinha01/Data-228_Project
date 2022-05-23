@@ -1,0 +1,247 @@
+{
+	"Alum Cave Trail to Mount LeConte,Great Smoky Mountains National Park": [
+		["Palisade Glacier Trail,John Muir Wilderness,California", 5.006176058, 0.0008611020000000025],
+		["Bear Creek Trailhead to Big Creek Trailhead,Bitterroot National Forest,Montana", 5.005928444, 0.001108716000000065],
+		["Elbow Lake,Custer Gallatin National Forest,Montana", 5.002942049, 0.004095111000000706]
+	],
+	"Bright Angel Trail to Bright Angel Campground and River Trail,Grand Canyon National Park": [
+		["Sullivan Run Trail to Lewis Falls,Ricketts Glen State Park,Pennsylvania", 4.58026564, 0.0003875499999992371],
+		["Miller Peak Trail,Coronado National Memorial,Arizona", 4.582585342, 0.0019321520000001868],
+		["West Rim Trail to Lava Point,Zion National Park,Utah", 4.583126107, 0.0024729170000004075]
+	],
+	"Emerald Lake Trail,Rocky Mountain National Park": [
+		["Mica Mountain via Douglas Spring and Cow Head Saddle Trail,Saguaro National Park,Arizona", 5.532537762, 0.0008174780000000936],
+		["Deep Creek to Clingman's Dome Loop,Great Smoky Mountains National Park,North Carolina", 5.534361314, 0.00100607400000019],
+		["Greenhorn Trail,Greenhorn Mountain Wilderness,Colorado", 5.534743567, 0.0013883269999999115]
+	],
+	"Angels Landing Trail,Zion National Park": [
+		["Mount Whitney Portal to Lone Pine Lake,Inyo National Forest,California", 3.477563443, 0.0002570730000002186],
+		["Champney Falls - Bolles Chocura Loop,White Mountain National Forest,New Hampshire", 3.47803677, 0.0007304000000001309],
+		["Black Mountain Trail,Pike National Forest,Colorado", 3.478036807, 0.0007304370000000837]
+	],
+	"Vernal and Nevada Falls via the Mist Trail,Yosemite National Park": [
+		["Robertson Mountain via Weakley Hollow and Old Rag Fire Roads,Shenandoah National Park,Virginia", 3.116807372, 6.588800000040251e-05],
+		["Woody Gap to Jarrard Gap,Blood Mountain Wilderness,Georgia", 3.117049291, 0.00017603099999963234],
+		["Tramway via Tree Spring Trail #147 and South Crest Trail #130,Cibola National Forest,New Mexico", 3.117486355, 0.0006130949999998414]
+	],
+	"Mystic Falls, Fairy Creek and Little Firehole Loop,Yellowstone National Park": [
+		["Hang Glider Monument,,Idaho", 3.697681098, 0.0004157079999997926],
+		["Sierra Peak via Skyline Trail,Cleveland National Forest,California", 3.697707446, 0.00044205599999980194],
+		["Charlton Peak via South Fork Trail,San Gorgonio Wilderness,California", 3.697856681, 0.0005912910000001048]
+	],
+	"The Beehive Loop Trail,Acadia National Park": [
+		["Estero Trail,Point Reyes National Seashore,California", 2.910978005, 4.641499999991083e-05],
+		["Wright Peak Summit Trail,,California", 2.910883987, 4.760300000006268e-05],
+		["Wolf Knob and Little Hickory Top Loop,Powhatan Recreation Area,North Carolina", 2.910842294, 8.929600000007198e-05]
+	],
+	"Cascade Canyon Trail,Grand Teton National Park": [
+		["Scales Mountian Bike Trail,Scales Lake County Park,Indiana", 2.213518817, 0.0008709070000003649],
+		["Thornburg Canyon,Humboldt-Toiyabe National Forest,California", 2.213691233, 0.001043323000000207],
+		["Christmas Meadows to Ryder Lake,Uinta-Wasatch-Cache National Forest,Utah", 2.213779464, 0.00113155400000009]
+	],
+	"Hurricane Hill via Hurricane Ridge,Olympic National Park": [
+		["Hertline Shelter via Appalachian Trail,,Pennsylvania", 1.409422641, 8.069900000018393e-05],
+		["Chapin Forest Trail,Chapin Forest Reservation,Ohio", 1.409383851, 0.00011948900000002816],
+		["Crown Mountain Trail,Scapegoat Wilderness,Montana", 1.409351373, 0.00015196700000008612]
+	],
+	"Grinnell Glacier Trail,Glacier National Park": [
+		["Turkey Springs Campe via Can Carpoforo Trail,Silver Peak Wilderness,California", 4.344436151, 0.000410540999999931],
+		["Philmont Trek 10,Philmont Scout Ranch,New Mexico", 4.343574039, 0.0004515710000001505],
+		["Santa Fe Trail,Fort Union National Monument,New Mexico", 4.343256962, 0.0007686480000002049]
+	],
+	"Ryan Mountain Trail,Joshua Tree National Park": [
+		["Bald Hill Paumanok Path Trail,,New York", -1.597476646, 0.00012914600000013543],
+		["Highlands and Riverside Loop,Avon Nature Study Area,Michigan", -1.597511419, 0.00016391900000001236],
+		["Bill Grey Road to Buckboard Road OHV Trail,Coconino National Forest,Arizona", -1.597051162, 0.00029633799999984056]
+	],
+	"Navajo Loop and Queen's Garden Trail,Bryce Canyon National Park": [
+		["Laurel Trail to North Valley Trail to South Valley Trail Loop,,Virginia", 1.723178789, 7.017099999995224e-05],
+		["Middle St Vrain Trail and Coney Creek OHV Trail,Roosevelt National Forest,Colorado", 1.723348919, 9.99589999999273e-05],
+		["Hanging Rock,George Washington and Jefferson National Forests,Virginia", 1.723388128, 0.00013916800000002283]
+	],
+	"Ledges Trail,Cuyahoga Valley National Park": [
+		["Difficult Creek Trail,White River National Forest,Colorado", 1.521327007, 4.531299999999128e-05],
+		["Brushy Creek: CR 30 - to AR 246,Ouachita National Forest,Arkansas", 1.521507926, 0.00013560599999995482],
+		["East Fork Trailhead to Battleship Rock Trailhead via East Fork Trail,Santa Fe National Forest,New Mexico", 1.521221137, 0.0001511830000000547]
+	],
+	"Tolmie Peak Trail,Mount Rainier National Park": [
+		["Elderberry to Cuesta Loop,Las Trampas Regional Park,California", 0.70452646, 1.5044000000075108e-05],
+		["Shiloh Road Spring Creek Canyon Loop,Spring Creek Park,Pennsylvania", 0.704559243, 1.773899999990558e-05],
+		["Aspen Trail,Caribou-Targhee National Forest,Wyoming", 0.704614533, 7.302899999994672e-05]
+	],
+	"Delicate Arch Trail,Arches National Park": [
+		["Two Mountains Scenic Drive: Mountain Home to Mountain View,,Arkansas", 1.381528371, 7.354099999989927e-05],
+		["Freeway Ridge OHV Trail,Sequoia National Forest,California", 1.381538385, 8.355500000001292e-05],
+		["Mill Mountain Trail,Wolf Gap Recreation Area,West Virginia", 1.381279696, 0.00017513400000002122]
+	],
+	"Badwater Basin Salt Flats Trail,Death Valley National Park": [
+		["Wahatoya Canyon Meadow,San Isabel National Forest,Colorado", -1.64076316, 5.4590000000187544e-05],
+		["Piqua Activities Trail for Health,Linear Park,Ohio", -1.64059079, 0.00011777999999984523],
+		["Rock Creek Trail,Lafayette Great Park,Colorado", -1.640958169, 0.00024959899999998925]
+	],
+	"Sunset Trail,Hot Springs National Park": [
+		["Hamms Gulch to Spring Ridge Trail Loop,Windy Hill Open Space,California", 1.707039258, 1.643200000001066e-05],
+		["White Pine Lake Trail,Uinta-Wasatch-Cache National Forest,Utah", 1.707072581, 1.6891000000018863e-05],
+		["Appalachian Trail: Iron Mountain & Brushy Mountain,Jefferson National Forest,Virginia", 1.707084523, 2.8833000000005882e-05]
+	],
+	"Old Rag Mountain Loop,Shenandoah National Park": [
+		["Mount Whitney via Mount Whitney Trail,Inyo National Forest,California", 6.590122023, 0.0019567430000000385],
+		["PCT: CA Section O - Burney Falls State Park to Highway 5 (Castle Crags),McArthur-Burney Falls Memorial State Park,California", 6.57959447, 0.00857081000000015],
+		["Skyline Trail: Cactus to Clouds,Mount San Jacinto State Park,California", 6.597099997, 0.008934716999999814]
+	],
+	"Moro Rock Trail,Sequoia National Park": [
+		["Koko Crater Rim Trail,Koko Crater Regional Park,Oahu", 2.045341971, 2.551100000003359e-05],
+		["The Rolls and Saguaro Lake OHV Loop,Four Peaks Wilderness,Arizona", 2.045363967, 4.750700000011321e-05],
+		["Irish Hills Open Space Loop,Irish Hills Open Space,California", 2.045455789, 0.00013932900000002135]
+	],
+	"Hickman Bridge Trail,Capitol Reef National Park": [
+		["Silver Lead Trail,Marquette North Trails,Michigan", 0.370291868, 1.052900000003687e-05],
+		["Keown Falls Trail,Johns Mountain Wildlife Management Area,Georgia", 0.370213771, 6.756799999996232e-05],
+		["Third Lake Trail,Ferris Lake Wild Forest,New York", 0.370191219, 9.011999999997133e-05]
+	],
+	"Pipiwai Trail and Waimoku Falls,Haleakala National Park": [
+		["Lower/Upper Wolfjaw, Armstrong, and Gothics Loop Trail,Adirondack Park,New York", 3.84677735, 0.00038639000000006973],
+		["Mount Wilson Loop,,California", 3.846979629, 0.0005886689999998751],
+		["Matterhorn Peak,Toiyabe National Forest,California", 3.845419405, 0.0009715550000000128]
+	],
+	"Notch Trail,Badlands National Park": [
+		["Ophir Grade OHV Trail,,Nevada", -0.85035924, 3.156900000000906e-05],
+		["Hickory Oak Ridge Trail Loop,Long Ridge Open Space Preserve,California", -0.850289085, 3.8585999999951603e-05],
+		["Fisher Oak Savanna Nature Preserve,,Indiana", -0.850216744, 0.00011092699999992739]
+	],
+	"Bridal Wreath Falls Trail,Saguaro National Park": [
+		["Highland Trails Woodland Loop (Green),James Monroe's Highland,Virginia", 0.154095317, 0.00013042500000001733],
+		["Notom Road Scenic Byway 12,Capitol Reef National Park,Utah", 0.154119352, 0.00015445999999999516],
+		["Manzanita County Park Trails,Manzanita Regional Park,California", 0.154163562, 0.0001986700000000119]
+	],
+	"Shark Valley Trail,Everglades National Park": [
+		["Lake Mead/Hoover Dam Walking Tour,Lake Mead National Recreation Area,Arizona", -1.016341134, 9.913599999999967e-05],
+		["Redd Park Trail,William Redd Jr Park,Delaware", -1.016583492, 0.00014322200000016494],
+		["Gold Run Gulch Loop,,Colorado", -1.016593797, 0.00015352700000015318]
+	],
+	"Mesa Arch Trail,Canyonlands National Park": [
+		["Green Blaze,Ralph Hill- Vietnam Veterans Park,Massachusetts", -1.263660012, 5.346799999994545e-05],
+		["Lower Deer Creek Falls Trail,Lassen National Forest,California", -1.263628381, 8.509900000008841e-05],
+		["Monte Largo Canyon,Manzano Mountains State Park,New Mexico", -1.263907494, 0.00019401399999985358]
+	],
+	"Wind Canyon Trail,Theodore Roosevelt National Park": [
+		["Salinas River National Wildlife Refuge,Salinas River National Wildlife Refuge,California", -3.024481462, 0.0003519780000003081],
+		["Deer Walk Trail and Sycamore Trail Loop,Stephen F. Austin State Park,Texas", -3.026662355, 0.001828914999999931],
+		["Dartmouth Playground,,Massachusetts", -3.026665815, 0.0018323749999997752]
+	],
+	"Garfield Peak Trail,Crater Lake National Park": [
+		["Crater Lake Trail,High Uintas Wilderness,Utah", 3.925393041, 0.00015217900000008555],
+		["Spirit Lake, Katherine Lake, Stewart Lake, and Lake Johnson Loop,Pecos Wilderness,New Mexico", 3.925733514, 0.00018829399999997776],
+		["Mount Bond and Mount Guyot via Bondcliff Trail and Lincoln Woods Trail,White Mountain National Forest,New Hampshire", 3.925814819, 0.00026959900000012027]
+	],
+	"Mist Falls Trail,Kings Canyon National Park": [
+		["Cathedral Canyon Mountain Bike Ride,Santa Rosa and San Jacinto Mountains National Monument,California", 1.924577254, 0.000221863999999794],
+		["Camuesa Peak Trail,Los Padres National Forest,California", 1.924076777, 0.00027861300000009415],
+		["Mount Columbia East Ridge Trail,San Isabel National Forest,Colorado", 1.924025654, 0.0003297360000000804]
+	],
+	"Blue Mesa Trail,Petrified Forest National Park": [
+		["Dog Saddle to Saddle Mountain Trail,Saddle Mountain Wilderness,Arizona", -2.808656196, 0.0012798540000003022],
+		["Stampede Reservoir Overlook,Tahoe National Forest,California", -2.813410358, 0.003474307999999926],
+		["Sleepy Hollow Trail,Black Moshannon State Park,Pennsylvania", -2.814158374, 0.0042223239999996665]
+	],
+	"Rankin Ridge Interpretive Trail,Wind Cave National Park": [
+		["Greyhound Pack Trail,Uncompahgre National Forest,Colorado", -3.401263158, 0.00024183199999994187],
+		["Brophy Canyon to Bear Creek Trail,,California", -3.402621254, 0.0011162640000002],
+		["3 State Corners Trail,,Colorado", -3.399545627, 0.0019593629999996587]
+	],
+	"Mount Healy Overlook Trail,Denali National Park": [
+		["Lake MacBride North Shore Trail,Lake Macbride State Park,Iowa", -1.112683358, 0.00012952799999998987],
+		["Blue Blazes Trail,Moccasin Bend,Tennessee", -1.112835596, 0.0002817660000000721],
+		["East Hartford loop,Nicholas Forum Park,Connecticut", -1.112244749, 0.0003090809999999333]
+	],
+	"Petroglyph Point Trail,Mesa Verde National Park": [
+		["Lake Carolyn Loop,,Texas", -0.370753741, 5.469300000005006e-05],
+		["Sesqui Mountain Bike Trail,Sesquicentennial State Park,South Carolina", -0.370762972, 6.39240000000485e-05],
+		["Tsali Right Loop,Nantahala National Forest,North Carolina", -0.370785707, 8.665900000004445e-05]
+	],
+	"Green River Bluffs Trail,Mammoth Cave National Park": [
+		["Olmsted Point Nature Trail,Yosemite National Park,California", -0.175534384, 2.785199999999488e-05],
+		["Montour Trail - McDonald to Venice,,Pennsylvania", -0.175408683, 9.78489999999832e-05],
+		["Oak Park Trail,Monte Sano Preserve,Alabama", -0.175406232, 0.00010029999999999761]
+	],
+	"Biscayne National Park Walk,Biscayne National Park": [
+		["Spruce Hill Trail,,Connecticut", -1.103209213, 7.792299999986874e-05],
+		["Rose Canyon Trail,Rose Canyon Open Space,California", -1.103230032, 9.874199999981847e-05],
+		["Clifftop Vista Trail,Nantahala National Forest,North Carolina", -1.103356312, 0.00022502199999996364]
+	],
+	"Lassen Peak,Lassen Volcanic National Park": [
+		["PCT: CA Section O - Burney Falls State Park to Highway 5 (Castle Crags),McArthur-Burney Falls Memorial State Park,California", 6.57959447, 0.00517115999999973],
+		["Muir Pass via Bishop Pass,Inyo National Forest,California", 6.563101526, 0.011321784000000612],
+		["Mallard-Larkins Loop,Idaho Panhandle National Forest,Idaho", 6.560792724, 0.013630586000000555]
+	],
+	"Tall Trees Grove Loop Trail,Redwood National Park": [
+		["Loch Raven Drive and Meadow Trail Loop,Cromwell Valley Park,Maryland", 0.007921495, 4.304000000000113e-06],
+		["Golden Gate Park Trail,Golden Gate Park,California", 0.007959223, 4.203199999999914e-05],
+		["Cache la Poudre River Trail,Rocky Mountain National Park,Colorado", 0.007968569, 5.1377999999999494e-05]
+	],
+	"Carlsbad Caverns National Park Trail,Carlsbad Caverns National Park": [
+		["Madison Escape, Potomac Heritage and Bootlegger Trail,Riverbend Park,Maryland", 0.323455254, 1.849799999997792e-05],
+		["Lake Peak and Heavens Hill Loop,Pecos Wilderness,New Mexico", 0.323672816, 0.00019906399999997104],
+		["Rainbow Bridge via PCT,San Bernardino National Forest,California", 0.323249752, 0.00022400000000000198]
+	],
+	"Lost Mine Trail,Big Bend National Park": [
+		["Lower Aliso Canyon Trail,Chino Hills State Park,California", 0.70633673, 3.1418000000060786e-05],
+		["Wolf Mountain Trail,Pedernales Falls State Park,Texas", 0.706317975, 5.01729999999867e-05],
+		["Hawk Trail to Cottontail Bend Loop,Tandy Hills Park,Texas", 0.706159671, 0.0002084770000000402]
+	],
+	"Potato Harbor Trail,Channel Islands National Park": [
+		["Marathon Park Trail,Marathon Park,Wisconsin", -1.852900831, 7.882900000000248e-05],
+		["Roaring Brook Falls, Nubble, Giant Washbowl Loop,Giant Mountain Wilderness,New York", -1.852825491, 0.0001541689999999818],
+		["Mount Eden,Stevens Creek County Park,California", -1.853159254, 0.00017959400000000514]
+	],
+	"Warner Point Nature Trail,Black Canyon of the Gunnison National Park": [
+		["Tippicanoe Purple and Brown Trail Loop,Tippicanoe Environmental Park,Florida", -3.10448338, 0.00024866000000001165],
+		["Road 19 Trail,,Oregon", -3.104297898, 0.00043414200000002623],
+		["Boston Pond,Stephen A. Forbes,Illinois", -3.105520454, 0.0007884140000000706]
+	],
+	"Harding Ice Field Trail,Kenai Fjords National Park": [
+		["Mount Logan,Mount Evans Wilderness,Colorado", 5.056499679, 0.0011341189999996004],
+		["Swift Trail Scenic Drive,Mount Graham Wilderness,Arizona", 5.057303142, 0.0019375820000000488],
+		["Isolation via Glen Boulder and Rocky Branch,,New Hampshire", 5.057476792, 0.002111231999999852]
+	],
+	"Blind Ash Bay Trail,Voyageurs National Park": [
+		["Mount David Loop,,Maine", -0.400839937, 9.046199999995785e-05],
+		["Eames Pond,Moore State Park,Massachusetts", -0.400870949, 0.00012147399999995478],
+		["Hanging Rock Trail,Sequoia National Park,California", -0.400936353, 0.00018687800000000143]
+	],
+	"Condor Gulch Trail to High Peaks Trail Loop,Pinnacles National Park": [
+		["Sheep Lake,Nez Perce National Forest,Idaho", 3.748852328, 6.229800000001617e-05],
+		["Burnt Cabin via South Fork Walla Walla Trail,North Fork Umatilla Wilderness,Oregon", 3.749313803, 0.0005237730000002827],
+		["Kennebec Pass OHV Trail,San Juan National Forest,Colorado", 3.749396722, 0.0006066920000002973]
+	],
+	"Guadalupe Peak Texas Highpoint Trail,Guadalupe Mountains National Park": [
+		["Neffs Canyon Trail,Uinta-Wasatch-Cache National Forest,Utah", 2.623738923, 7.700000015375963e-08],
+		["Hideaway Beach Trail,,Kauai", 2.623625424, 0.00011357599999994861],
+		["Noah's Ark Trail,,Utah", 2.623421363, 0.0003176370000002038]
+	],
+	"Boardwalk Loop Trail,Congaree National Park": [
+		["Hells Canyon,,Utah", 0.05154336, 8.02200000000336e-06],
+		["Coulton Creek Trail,Mount Zirkel Wilderness,Colorado", 0.051622064, 8.672600000000225e-05],
+		["Chapel Falls Trail to Moose Run,Daughter of the American Revolution (D.A.R.) State Forest,Massachusetts", 0.051653764, 0.00011842599999999787]
+	],
+	"Wheeler Peak Trail via Stella Lake Trail,Great Basin National Park": [
+		["Gooseberry Springs and Mount Taylor Loop,Cibola National Forest - Mt. Taylor Ranger District (East),New Mexico", 3.466431336, 3.834599999974486e-05],
+		["Appalachian Trail: Wayah Bald to Tellico Gap,Nantahala National Forest,North Carolina", 3.466240673, 0.0001523169999999574],
+		["The Saddle Trail,Rocky Mountain National Park,Colorado", 3.466051656, 0.0003413340000002485]
+	],
+	"Fort Jefferson Loop,Dry Tortugas National Park": [
+		["Wilhoite Mill, River Trail, Wetlands Trail and Hickory Ridge Outer Trail,Henry Horton State Park,Tennessee", 0.673392296, 5.495500000007869e-05],
+		["Cimarron Canyon: Cimarron to Eagle Nest Scenic Drive,,New Mexico", 0.673507206, 5.9955000000000425e-05],
+		["El Cerro Trail,Villanueva State Park,New Mexico", 0.673512113, 6.486199999999887e-05]
+	],
+	"Blue Lake Trail,North Cascades National Park": [
+		["Mount Logan,Mount Evans Wilderness,Colorado", 5.056499679, 0.0008675689999995129],
+		["Swift Trail Scenic Drive,Mount Graham Wilderness,Arizona", 5.057303142, 0.0016710319999999612],
+		["Isolation via Glen Boulder and Rocky Branch,,New Hampshire", 5.057476792, 0.0018446819999997643]
+	],
+	"Greenstone Ridge Trail: Windigo to Tobin Harbor,Isle Royale National Park": [
+		["Marlette Peak from Tunnel Creek,Lake Tahoe-Nevada State Park,Nevada", 4.522653034, 0.00016028599999984294],
+		["Black Angel Trail,White Mountain National Forest,New Hampshire", 4.522236469, 0.0005768509999999338],
+		["Pebble Creek Trail To Bliss Pass,Yellowstone National Park,Wyoming", 4.522197433, 0.0006158870000003702]
+	]
+}
