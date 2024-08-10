@@ -1,8 +1,21 @@
-# Data-228_Project
-Data Transformation: Has got all our jupyter notebook files where we have cleaned each and every dataset. And how we modified or transformed the data according to our requirement such as generating a quantitative composite score and verifying whether our approach is meaningful or not.
+# Park Trail Data Analysis and Recommendation System
 
-Analysis: Has got all our SQL queries that we performed in AWS Redhsift using the data from S3 buckets and loading it into the Redshift tables. It has all our analysis work that we performed in order to get our desired outcome.
+## Overview
 
-Result: Has got our final interpretation of our analysis and the desired outcome i.e. the list of under-rated trails which are similar to the top-50 well-known trails (by popularity).
+This project involved developing an app using Python and Jupyter Notebook to analyze park trail data from various sources (e.g., alltrails.com, nps.gov). We focused on identifying visitation trends in national parks, determining the top 50 trails, and understanding the factors influencing their popularity.
 
-Main.tex: Project report in latex.
+## Components
+
+- **Data Transformation**: Jupyter notebooks containing the cleaning and transformation of datasets, including generating a quantitative composite score to validate our approach.
+  
+- **Analysis**: SQL queries executed in AWS Redshift, using data from S3 buckets, to achieve desired outcomes. This includes geographical and weather data analysis to recommend underrated state trails similar to popular national trails.
+
+- **Result**: Final analysis and outcomes, presenting a list of underrated trails comparable to the top 50 well-known trails.
+
+- **Main.tex**: Project report compiled in LaTeX.
+
+## Technologies Used
+
+- Python, Pandas, Matplotlib, Jupyter Notebook, Google Colab
+- AWS (S3, Redshift)
+- LaTeX
